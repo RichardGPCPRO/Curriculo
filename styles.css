@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic img {
+    width: 100px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 100px; /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 50%; /* Para tornar a imagem redonda */
+    object-fit: cover; /* Para garantir que a imagem se ajuste ao contêiner */
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.section-title {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.projeto {
+    margin-bottom: 20px;
+}
+
+.projeto h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.projeto p {
+    font-size: 1rem;
+}
+
+.projeto a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.projeto a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+}
